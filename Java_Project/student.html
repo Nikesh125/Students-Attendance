@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students' Attendance System - Student Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Attendance System</h1>
+        <div class="header-right">
+            <span id="welcome"></span>
+            <a href="index.html" class="logout-link">Logout</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <ul class="nav-menu">
+                <li class="active"><a href="#">Dashboard</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h2>My Information</h2>
+            <div class="student-info">
+                <p><strong>Name:</strong> <span id="studentName"></span></p>
+                <p><strong>Username:</strong> <span id="studentUsername"></span></p>
+                <p><strong>Role:</strong> <span id="studentRole"></span></p>
+                <p><strong>Gender:</strong> <span id="studentGender"></span></p>
+            </div>
+
+            <h2>List of Students</h2>
+            <table class="attendance-table">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Class</th>
+                    </tr>
+                </thead>
+                <tbody id="studentsTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Placeholder for loading data
+        document.getElementById('welcome').textContent = 'Welcome, Student';
+        document.getElementById('studentName').textContent = 'John Doe';
+        document.getElementById('studentUsername').textContent = 'johndoe';
+        document.getElementById('studentRole').textContent = 'Student';
+        document.getElementById('studentGender').textContent = 'Male';
+    </script>
+</body>
+</html>

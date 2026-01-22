@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: rgb(19, 210, 214);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.back-btn {
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.back-btn:hover {
+    background-color: gold;
+}
+
+.container {
+    display: flex;
+    gap: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #ddd;
+    border-right: 2px solid black;
+    padding: 20px 0;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    border-bottom: 1px solid black;
+}
+
+.nav-menu a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-menu a:hover {
+    background-color: rgb(19, 210, 214);
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px 30px;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.filters {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.filters label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filters select,
+.filters input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.filters button {
+    padding: 8px 20px;
+    background-color: rgb(19, 210, 214);
+    border: 2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.filters button:hover {
+    background-color: gold;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.attendance-table th,
+.attendance-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.attendance-table th {
+    background-color: #ddd;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.attendance-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.attendance-table select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.submit-btn {
+    background-color: rgb(19, 210, 214);
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: gold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid black;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    .nav-menu li {
+        border-bottom: none;
+        border-right: 1px solid black;
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .attendance-table {
+        font-size: 12px;
+    }
+
+    .attendance-table th,
+    .attendance-table td {
+        padding: 6px;
+    }
+}
