@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/web/addStudent.jsp</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/web/viewStudents.jsp</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/src/java/com/attendance/DBConnection.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/src/java/com/attendance/AttendanceServlet.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/web/report.jsp</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/web/index.html</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/src/java/com/attendance/LoginServlet.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/src/java/com/attendance/AddStudentServlet.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/src/java/com/attendance/DeleteStudentServlet.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/web/markAttendance.jsp</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/web/register.jsp</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/src/java/com/attendance/RegisterServlet.java</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/web/edit.jsp</file>
+            <file>file:/C:/Users/LENOVO/Desktop/Attendance_System/src/java/com/attendance/UpdateStudentServlet.java</file>
+        </group>
+    </open-files>
+</project-private>
