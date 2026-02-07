@@ -15,7 +15,7 @@ public class DeleteStudentServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) 
             throws ServletException, IOException {
         
-        // 1. Get the ID from the URL (e.g., deleteStudent?id=5)
+        // 1. Get the ID from the URL
         String id = request.getParameter("id");
 
         try (Connection conn = DBConnection.getConnection()) {

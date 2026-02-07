@@ -11,7 +11,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-// This annotation links the HTML form action="login" to this Java class
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 

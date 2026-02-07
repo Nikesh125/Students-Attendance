@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-@WebServlet("/registerTeacher") // URL pattern matches the JSP form action
+@WebServlet("/registerTeacher")
 public class RegisterServlet extends HttpServlet {
     
     @Override

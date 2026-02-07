@@ -26,7 +26,7 @@
 <html>
 <head>
     <title>Edit Student</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style_css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="container mt-5">
     <div class="col-md-6 offset-md-3 card shadow p-4">
@@ -42,7 +42,7 @@
                 <input type="text" name="roll" value="<%= roll %>" class="form-control" required>
             </div>
             <button type="submit" class="btn btn-primary">Update Student</button>
-            <a href="viewStudents.jsp" class="btn btn-link text-secondary">Cancel</a>
+            <button type="button" onclick="history.back()" class="btn btn-success">Cancel</button>
         </form>
     </div>
 </body>

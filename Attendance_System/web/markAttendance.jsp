@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Mark Attendance</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style_css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="container mt-5">
     <div class="card shadow">
@@ -50,9 +50,11 @@
                     </tbody>
                 </table>
                 <button type="submit" class="btn btn-success">Save Attendance</button>
+                <a href="viewStudents.jsp?f=<%=f%>&s=<%=s%>" class="btn btn-secondary ms-2">Cancel</a>
             </form>
         </div>
     </div>
+    <script src="style_js/bootstrap.bundle.min.js"></script>
     <script>document.getElementById('dp').valueAsDate = new Date();</script>
 </body>
 </html>
